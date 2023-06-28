@@ -7,4 +7,3 @@ for (let i = 10; i >= 0 ; i--){
   else 
   console.log(i);
 }
-// No me quedó claro si debia poner tambien el numero 0, en ese caso la linea 6 seira : console.log(i + " Lanzamientos!")
