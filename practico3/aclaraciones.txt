@@ -1,0 +1,3 @@
+// En lanzamientos.js: No me quedó claro si debia poner tambien el numero 0, 
+en ese caso la linea 6 seria : console.log(i + " Lanzamientos!")
+// En listaDeInvitados.js : me salen los nombres con los brakets y me queda la duda si es lo correcto.
