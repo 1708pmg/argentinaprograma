@@ -10,11 +10,13 @@ function obtenerJugadaComputadora(){
 let jugadaUsuario;
 function obtenerJugadaUsuario(){
     let jugadaUsuario = readlineSync.question("Por favor, ingresa una de las tres opciones: piedra, papel o tijeras: ");
+    jugadaUsuario.toLowerCase();
+    jugadaUsuario = jugadaUsuario.toLowerCase();
     if (!(jugadaUsuario === "piedra" || jugadaUsuario === "papel" || jugadaUsuario === "tijeras")){
     let mensaje = "Jugada invalida. Elija una de estas opciones: piedra, papel o tijeras. ";
     return(mensaje);
 }
-    else {
+    else { 
     return jugadaUsuario.toLowerCase();
     }
 }
